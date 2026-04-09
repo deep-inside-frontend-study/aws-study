@@ -1,0 +1,1 @@
+Amazon RDS를 생성하는 CloudFormation 코드

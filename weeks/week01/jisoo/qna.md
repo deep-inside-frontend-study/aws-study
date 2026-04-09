@@ -1,5 +1,5 @@
 ## VPC와 서브넷 관계 추가
-![VPC 서브넷 구조](./image/vpc_subnet_table_analogy.svg)
+![VPC 서브넷 구조](./image/vpc_routing_table_analogy.svg)
 
 ### 인터넷
 - 엄청나게 넓은 도시
@@ -37,8 +37,8 @@
 
 ## CIDR 이란
 
-![VPC 서브넷 구조](./image/cidr_explainer.svg)
-![VPC 서브넷 구조](./image/cidr_prefix_bits.svg)
+![CIDR 설명](./image/cidr_explainer.svg)
+![CIDR 비트](./image/cidr_prefix_bits.svg)
 
 - IP 주소 범위를 표현하는 방법 ( = 몇번지부터 몇번지까지를 짧게 쓰는 표기법)
 - **서브넷의 CIDR은 반드시 VPC CIDR안에 포함되어야함!**
